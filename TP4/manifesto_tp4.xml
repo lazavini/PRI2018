@@ -26,8 +26,9 @@
         <para>Na página principal contem index.html, cuja função é a de apresentar as informações das musicas e de direcionar o utilizador.</para>
     </resumo>
     <resultados>
-        <resultado path="website/index.html">Página principal das Músicas</resultado>
-        <resultado path="arquivo-musica-digital2html.xsl">Stylesheet usado no ficheiro XML (XSL)</resultado>
-        <resultado path="arquivo-musica-digital.xml">Representação das Informações das Músicas em XML</resultado>
+        <resultado path="https://github.com/lazavini/PRI2018/blob/master/TP4/website/index.html">Página principal das Músicas</resultado>
+        <resultado path="https://github.com/lazavini/PRI2018/blob/master/TP4/arquivo-musica-digital2html.xsl">Stylesheet usado no ficheiro XML (XSL)</resultado>
+        <resultado path="https://github.com/lazavini/PRI2018/blob/master/TP4/arquivo-musica-digital.xml">Representação das Informações das Músicas em XML</resultado>
+        <resultado path="https://github.com/lazavini/PRI2018/blob/master/TP4/node.js"> Servidor </resultado>
     </resultados>
 </manifesto>
