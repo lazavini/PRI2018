@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Informação sobre Tese
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Nome
+                        td= form.nome
+                    tr
+                        th Número / Identificador
+                        td= form.numero
+                    tr
+                        th Curso
+                        td= form.curso
+                    tr
+                        th Instituição
+                        td= form.inst
+                    tr
+                        th Título
+                        td= form.titulo
+                    tr
+                        th Data
+                        td= form.data
+                    tr
+                        th Tipo
+                        td= form.tipo
+            footer.w3-container.w3-teal
+                a(href="/") Voltar à página principal
