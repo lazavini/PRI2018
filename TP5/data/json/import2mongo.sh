@@ -3,5 +3,5 @@
 for f in $*
 do
   echo "Processing $f file..."
-  mongoimport -h localhost:27017 -d amd -c obras "$f" 
+  mongoimport -h localhost:4005 -d amd -c obras "$f" 
 done
