@@ -80,8 +80,8 @@ var myServer = http.createServer((req, res) => {
     }
 });
 
-myServer.listen(2727, () => {
-    console.log("Servidor à escuta na porta 2727... Ctrl-C para terminar.");
+myServer.listen(4006, () => {
+    console.log("Servidor à escuta na porta 4006... Ctrl-C para terminar.");
 });
 
 
