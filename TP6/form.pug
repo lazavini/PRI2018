@@ -3,37 +3,39 @@ extends layout
 block content
     .w3-container
         .w3-card-4
-            header.w3-container.w3-lime
+            header.w3-container.w3-silver
+                hr
                 h3 Registo de Tese
+                hr
             .w3-container
                 form.w3-container(action="/processaForm", method="POST")
                     h2 Dados do Aluno
-                    label.w3-text-green
+                    label.w3-text-red
                         b Nome
                     input.w3-input.w3-border.w3-light-grey(type="text", name="nome")
                     br
-                    label.w3-text-green
+                    label.w3-text-red
                         b Número / Identificador
                     input.w3-input.w3-border.w3-light-grey(type="text", name="numero")
                     br
-                    label.w3-text-green
+                    label.w3-text-red
                         b Curso
                     input.w3-input.w3-border.w3-light-grey(type="text", name="curso")
                     br
-                    label.w3-text-green
+                    label.w3-text-red
                         b Instituição
                     input.w3-input.w3-border.w3-light-grey(type="text", name="inst")
                     br
                     h2 Informação sobre a Tese
-                    label.w3-text-green
+                    label.w3-text-red
                         b Título
                     input.w3-input.w3-border.w3-light-grey(type="text", name="titulo")
                     br
-                    label.w3-text-green
+                    label.w3-text-red
                         b Data
                     input.w3-input.w3-border.w3-light-grey(type="text", name="data")
                     br
-                    label.w3-text-green
+                    label.w3-text-red
                         b Tipo
                     p
                         input.w3-radio.w3-border.w3-light-grey(type="radio", name="tipo", value="Mestrado")
@@ -42,6 +44,6 @@ block content
                         input.w3-radio.w3-border.w3-light-grey(type="radio", name="tipo", value="Doutoramento")
                         | Doutoramento    
                     br
-                    input.w3-btn.w3-green(type="submit", value="Submeter")
+                    input.w3-btn.w3-red(type="submit", value="Submeter")
             footer.w3-container.w3-lime
                 address Gerado por formApp
